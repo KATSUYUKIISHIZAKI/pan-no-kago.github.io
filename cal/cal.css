@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+/*
+holyday:定休日
+event:イベント実施日
+pointday:ポイント2倍デー
+*/
+span.Today {
+	cursor: pointer;
+	font-weight: bolder;
+	color: #444;
+	display: block;
+
+}
+li.deli {
+	background-color: #FFF;
+	color: #FFFFFF;
+}
+
+li.openingsale {
+	color: #FFFFFF;
+	font-weight: bolder;
+	background-color: #FF0000;
+}
+
+li.holyday {
+	background-color: #999;
+	color:#FFF;
+}
+
+li.Sun {
+	color: #FF0000;
+}
+
+li.Sat {
+	color: #0000FF;
+}
+
+li.undefined {
+	cursor: pointer;
+}
+
+li.pointday {
+	background-color: #51731F;
+	color: #FFFFFF;
+}
+
+li.event {
+	background-color: #DD5045;
+	color: #FFFFFF;
+}
+/*ui*/
+div.cal_wrapper {
+	padding: -10px 30px;
+	width: 175px!important;
+	width/**/: 195px;
+	height: 165px!important;
+	height/**/: 180px;
+	/*background-image: url(background.gif);*/
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+ul.cal_ui {
+	padding: 0px;
+	margin: 0px;
+	width: 60px;
+	float: right;
+}
+
+ul.cal_ui li {
+	float: left;
+	width: 20px;
+	height: 15px;
+	font-size: 10px;
+	list-style: none;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+li.cal_prev {
+	background-image: url(./cal/cal_01.gif);
+}
+
+li.cal_to {
+	background-image: url(./cal/cal_02.gif);
+}
+
+li.cal_next {
+	background-image: url(./cal/cal_03.gif);
+}
+
+
+
+div.cal_base p {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+ul.cal_main {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+ul.cal_main li {
+	/*padding: 3px 0px 3px 0px;*/
+	width: 25px;
+	text-align: center;
+	list-style: none;
+	font-size: 10px;
+	float: left;
+	overflow: hidden;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+ul.cal_main li span {
+	padding: 4px;
+	display: block;
+}
+

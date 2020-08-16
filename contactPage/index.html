@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="パンのかごは～～サイトです。" />
+  <meta name="keywords" content="パンのかご,パン,パン屋,東京都" />
+  <meta name="ROBOTS" content="NOINDEX,NOFOLLOW"/>
+  <link rel="shotcut icon" href="img/favicon.ico"/>
+  <title>お問い合わせ | パンのかご</title>
+
+  <!-- JavaScript用リンクタグ -->
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="../js/tinyscrolling.js"></script>
+<!--高さ揃え-->
+<script type="text/javascript" src="../js/mjl.js"></script>
+<script type="text/javascript" src="../js/run.js"></script>
+<!--データ読み込み-->
+<script src="../SpryAssets/SpryData.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryHTMLDataSet.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/kamome/kamome.js"></script>
+
+<!-- CSS用リンクタグ -->
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../css/style_floatmenu.css"/>
+<link rel="stylesheet" href="../css/clearfix.css" type="text/css" />
+
+<!-- JavaScript-->
+<script type="text/javascript">
+</script>
+</head>
+
+<body>
+<div id="wrapper"> 
+  <!-- header -->
+  <div id="header">
+    <div id="headerLogo"><a href="../index.html"><img src="../img/hedderLOGO.png" width="150" height="70" alt="パンのかごロゴマーク" /></a> </div>
+    <!-- /headerLogo --> 
+    <!-- gNavi -->
+    <div id="gNavi">
+      <ul>
+        <li><a href="../index.html">トップ</a></li>
+        <li><a href="../shopInfoPage/index.html">店舗情報</a></li>
+        <li><a href="../itemPage/index.html">商品</a></li>
+        <li><a href="../eventPage/index.html">イベント</a></li>
+        <li id="gnaviLast"><a href="../pointPage/index.html">ポイント</a></li>
+      </ul>
+    </div>
+    <!-- /gNavi --> 
+  </div>
+  <div id="contentHeader"></div>
+  <!-- /header -->
+  <div id="topicPath">
+    <ul>
+      <li><a href="../index.html">TOP</a></li>
+      <li class="topicPathArrow"></li>
+      <li><a href="#">イベント</a></li>
+    </ul>
+  </div>
+  <!-- /topicPath -->
+  <div id="content">
+    <div id="contentwrap" >
+      <div id="contactWrap">
+        <div id="contactDescription">
+          <h2 class="effect_2">お問い合わせ</h2>
+          <p>「パンのかご」に関するご意見・ご質問・ご要望などありましたら、お気軽にご連絡ください。<br />
+            お問い合わせフォームをご記入の上、「送信」ボタンをクリックしてください。<br />
+            お客様の個人情報については<a href="privacyPolicy.html" class="gotolink">プライバシーポリシー</a>をご確認ください。 </p>
+        </div>
+        <!--　ここからお問い合わせフォーム　-->
+        <div id="contactForm">
+          <dl>
+            <dt class="effect_1">お問い合わせフォーム</dt>
+            <dd>
+              <form name="form1" id="form1" method="post" action="xxxxx.php">
+                <table cellpadding="0" cellspacing="0" id="formTable" summary="お問い合わせフォーム">
+                  <tr>
+                    <th><label for="subject">お問い合わせ内容</label></th>
+                    <td><select name="subject" id="subject">
+                        <option value="選択してください" selected="selected">選択してください</option>
+                        <option value="店舗について">店舗について</option>
+                        <option value="商品について">商品について</option>
+                        <option value="ポイントについて">ポイントについて</option>
+                        <option value="イベントについて">イベントについて</option>
+                      </select></td>
+                  </tr>
+                  <tr>
+                    <th><label for="name">お名前</label></th>
+                    <td><input type="text" name="name" id="name" value="" size="20" /></td>
+                  </tr>
+                  <tr>
+                    <th><label for="tel">電話番号</label></th>
+                    <td><input type="text" name="tel" id="tel" value="" size="20" /></td>
+                  </tr>
+                  <tr>
+                    <th><label for="email">メールアドレス</label></th>
+                    <td><input type="text" name="email" id="email" value="" size="20" /></td>
+                  </tr>
+                  <tr>
+                    <th>ご連絡方法</th>
+                    <td><input type="radio" name="contact" id="contact1" value="メール" />
+                      <label for="contact1">メール</label>
+                      <input type="radio" name="contact" id="contact2" value="電話" />
+                      <label for="contact2">電話</label></td>
+                  </tr>
+                  <tr>
+                    <th>当店を<br />
+                    何でお知りになりましたか</th>
+                    <td id="checkBoxData"><p>
+                        <input type="checkbox" name="magazine" id="magazine" value="雑誌" />
+                        <label for="magazine">雑誌</label>
+                      </p>
+                      <p>
+                        <input type="checkbox" name="web" id="web" value="ホームページ" />
+                        <label for="web">ホームページ</label>
+                      </p>
+                      <p>
+                        <input type="checkbox" name="friend" id="friend" value="友人・知人" />
+                        <label for="friend">友人・知人</label>
+                      </p>
+                      <p>
+                        <input type="checkbox" name="signboard" id="signboard" value="看板" />
+                        <label for="signboard">看板</label>
+                      </p>
+                      <p>
+                        <input type="checkbox" name="etc" id="etc" value="その他" />
+                        <label for="etc">その他</label>
+                      </p></td>
+                  </tr>
+                  <tr>
+                    <th><label for="free">自由記入欄</label></th>
+                    <td><textarea name="free" id="free" cols="60" rows="5"></textarea></td>
+                  </tr>
+                </table>
+                <div id="formButton">
+                  <input type="button" name="submit" id="submit" value="送信" />
+                  <input type="reset" name="reset" id="reset" value="リセット" />
+                </div>
+              </form>
+              <!-- フォーム　ここまで　--> </dd>
+          </dl>
+        </div>
+        <div id="gotoTOP"><a href="#header">ページの先頭へ</a></div>
+      </div>
+      <!-- /eventWrap --> 
+    </div>
+    <!-- /contentWrap --> 
+  </div>
+  <!-- /content -->
+  
+  <div id="contentFooter"></div>
+  <div id="headerSub">
+    <ul>
+      <li><a href="../contactPage/index.html">お問い合わせ</a></li>
+      <li><a href="#siteTextNavi">サイトマップ</a></li>
+    </ul>
+  </div>
+  <div id="siteTextNavi">
+    <h2>サイトマップ</h2>
+    <dl>
+      <dt><a href="../index.html">トップページ</a></dt>
+      <dd>
+        <ul>
+          <li><a href="../index.html#news">お知らせ</a></li>
+          <li><a href="../index.html#callender">カレンダー</a></li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="../shopInfoPage/index.html">店舗情報</a></dt>
+      <dd>
+        <ul>
+          <li><a href="../shopInfoPage/index.html#storeToukyoStation">東京駅前店</a></li>
+          <li><a href="../shopInfoPage/index.html#storeSinagawa">品川店</a></li>
+          <li><a href="../shopInfoPage/index.html#storeMachida">町田店</a></li>
+          <li><a href="../shopInfoPage/index.html#storeOota">大田店</a></li>
+          <li><a href="../shopInfoPage/index.html#storeKichijoji">吉祥寺店</a></li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="../itemPage/index.html">商品情報</a></dt>
+      <dd>
+        <ul>
+          <li><a href="../itemPage/index.html#description">商品について</a></li>
+          <li><a href="../itemPage/index.html#pickUp">お勧め商品</a></li>
+          <li><a href="../itemPage/index.html#panDining">食事パン</a></li>
+          <li><a href="../itemPage/index.html#panSweet">菓子パン</a></li>
+          <li><a href="../itemPage/index.html#panCook">調理パン</a></li>
+          <li><a href="../itemPage/index.html#panOther">その他の商品</a></li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="../eventPage/index.html">イベント</a></dt>
+      <dd>
+        <ul>
+          <li><a href="../eventPage/index.html">ポイント2倍デー</a></li>
+          <li><a href="../eventPage/index.html">新作パンコンテスト</a></li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt><a href="../pointPage/index.html">ポイント</a></dt>
+      <dd>
+        <ul>
+          <li><a href="../pointPage/index.html#description">ポイントについて</a></li>
+          <li><a href="../pointPage/index.html#pickUp">目玉景品</a></li>
+          <li><a href="../pointPage/index.html#panDining">10ポイント</a></li>
+          <li><a href="../pointPage/index.html#panSweet">50ポイント</a></li>
+          <li><a href="../pointPage/index.html#panCook">100ポイント</a></li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="sitemapLasts">
+      <dt><a href="../contactPage/index.html">お問い合わせ</a></dt>
+      <dd>
+        <ul>
+          <li><a href="../contactPage/privacyPolicy.html">プライバシーポリシー</a></li>
+          <li><a href="../linkPage/link.html">リンク</a></li>
+        </ul>
+      </dd>
+    </dl>
+    
+    <!--
+      
+      
+      <ul>
+        <li><a href="index.html">トップページ</a></li>
+        <li><a href="shopInfoPage/index.html">店舗情報</a></li>
+        <li><a href="itemPage/index.html">商品情報</a></li>
+        <li><a href="eventPage/index.html">イベント</a></li>
+        <li><a href="contactPage/privacyPolicy.html">ポイント</a></li>
+        <li><a href="contactPage/privacyPolicy.html">プライバシーポリシー</a></li>
+        <li><a href="contactPage/index.html">お問い合わせ</a></li>
+        <li class="sitemapLast"><a href="linkPage/link.html">リンク</a></li>
+      </ul>
+      --> 
+  </div>
+
+  <div id="footer"><small>Copyright &copy; 2020 PanNoKago　All Rights Reserved</small></div>
+  </div>
+</body>
+</html>

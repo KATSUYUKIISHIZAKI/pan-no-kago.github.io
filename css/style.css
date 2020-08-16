@@ -1,0 +1,792 @@
+/* --------------------- reset　ここから ---------------------- */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #A9876C;
+}
+
+div, dl, dt, dd, ul, ol, li{
+margin: 0;
+padding: 0;
+}
+
+pre, form, eldset, input, textarea, p, blockquote, th{
+margin: 0;
+padding: 0;
+}
+
+html{
+  overflow-y: scroll;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+		}
+		
+h1, h2, h3, h4, h5, h6{
+margin: 0;
+padding: 0;
+font-size: 100%;
+font-weight: normal;
+}
+
+ol, ul{
+list-style:none;
+}
+
+fieldset, img {
+border:0;
+}
+
+table{
+border-collapse: collapse;
+border-spacing:0;
+}
+
+caption, th{
+text-align: left;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var{
+font-style: normal;
+font-weight: normal;
+}
+img {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+a, p , dd{
+	color: #444;
+}
+.gotolink {
+	font-weight: bold;
+}
+
+
+
+/* -------------------- reset　ここまで ---------------------------------- */
+/* -------------------- MySetting　ここから------------------------------- */
+/* -------------------- 各画面共通 ここから------------------------------- */
+#wrapper {
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	padding: 0px;
+
+
+}
+#header {
+	height: 70px;
+	width: 800px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#headerLogo {
+	height: 70px;
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#headerLogo a  {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#headerLogo a img{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+
+}
+
+#gNavi {
+	height: 40px;
+	float: right;
+	width: 600px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+#gNavi ul {
+	height: 40px;
+	width: 600px;
+	padding: 0px;
+	margin: 0px;
+}
+#gNavi ul li {
+	float: left;
+	height: 40px;
+	width: 119px;
+	line-height: 40px;
+	border-left-width: 1px;
+	border-left-style: dashed;
+	border-left-color: #444;
+	text-align: center;
+
+}
+#gNavi ul #gnaviLast{
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #444;
+	width: 118px;
+}
+
+#gNavi ul .selectedPage {
+	background-image: url(../img/gNaviArrow.png);
+	background-repeat: no-repeat;
+	background-position: center 33px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#gNavi ul li a {
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	display: block;
+	text-shadow:0px 2px 1px #333;
+	letter-spacing: 0.2em;
+
+	}
+#gNavi ul li a:hover {
+	color: #333;
+	text-shadow:0px 2px 1px #FFF;
+}
+#gNavi ul li a:active {
+	background-color: #4F3724;
+}
+#contentHeader {
+	background-image: url(../img/background/background_02.png);
+	background-repeat: no-repeat;
+	background-position: left -15px;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#topicPath {
+	height: 30px;
+	width: 940px;
+	padding-left: 25px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../img/background/background_05.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	line-height: 30px;
+}
+#topicPath ul {
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#topicPath ul li {
+	float: left;
+	font-size: 0.8em;
+	padding-right: 10px;
+	padding-top: 0px;
+	line-height: 30px;
+	margin: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.topicPathArrow {
+	background-image: url(../img/topicPath_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 30px;
+	width: 25px;
+}
+
+
+#content {
+	clear: both;
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../img/background/background_03.png);
+	background-repeat: repeat;
+	background-position: left top;
+	padding: 0px;
+
+
+
+}
+#contentwrap {
+	background-color: #FBF1ED;
+	height: 100%;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	padding: 0px;
+}
+
+
+/* --------- 各画面共通 ここから--------- */
+/* --------- TOP画面用 ここから--------- */
+#TopImg {
+	
+	clear: both;
+	height: 150px;
+	width: 780px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FAF0EC;
+}
+
+#main01 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 500px;
+}
+
+
+
+
+#main01 #news {
+	/*size*/
+	height: 150px;
+	width: 480px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#main01 #news dl{
+	width: 470px;
+	margin: 5px;
+	
+}
+
+#main01 #news dl dd iframe{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 80%;
+	margin: 0px;
+	padding: 0px;
+}
+#main01 #news dl dd  #infomationSpace{
+	background-color: #FFF;
+	height: 105px;
+	width: 463px;
+	overflow: auto;
+	padding-left: 5px;
+	
+	
+}
+#news dl dd #infomationSpace table {
+	font-size: 0.8em;
+	background-color: #FFF;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#news dl dd #infomationSpace table tr td {
+	
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #333;
+	
+}
+#news dl dd #infomationSpace table tr .day {
+	margin: 0px;
+	padding: 0px;
+	width: 80px;
+}
+#main01 #callender {
+	height: 205px;
+	width: 480px;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	position: relative;
+	background-color: #FFF;
+}
+#main01 #callender dl {
+	height: 195px;
+	width: 470px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#main01 #callender dl .call {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	margin-right: 0px;
+}
+#main01 #callender dl .callInfo {
+	color: #444;
+	margin: 0px;
+	padding-right: 0px;
+	padding-left: 10px;
+	font-size: 0.9em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#main01 #callender dl .callInfo ul li {
+	line-height: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#main01 #callender dl .callInfo ul .callRed {
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #DD5045;
+	padding-left: 5px;
+}
+#main01 #callender dl .callInfo ul .callGrean {
+	border-left-width: 10px;
+	border-left-style: solid;
+	padding-left: 5px;
+	border-left-color: #51731F;
+}
+#main01 #callender dl .callInfo ul .callGray {
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #999;
+	padding-left: 5px;
+}
+#main02 {
+	float: right;
+	width: 280px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #FBF1ED;
+}
+#main02 ul .osusumeBunner {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 150px;
+	width: 280px;
+}
+#main02 ul .eventBunner{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	width: 280px;
+}
+#main02 ul .pointBunner {
+	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	height: 100px;
+	width: 280px;
+}
+#main02 ul li a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+/* --------- TOP画面用 ここから------------------------------------------- */
+
+/* --------- 各画面共通 ここから------------------------------------------- */
+
+#gotoTOP {
+	clear: both;
+	text-align: left;
+	display: block;
+	height: 30px;
+	width: 800px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#gotoTOP a {
+	font-size: 0.7em;
+	background-image: url(../img/topArrow.gif);
+	background-repeat: no-repeat;
+	background-position: left 15px;
+	display: block;
+	font-weight: bold;
+	color: #444;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	line-height: 20px;
+	width: 100px;
+	height: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 690px;
+}
+#contentFooter {
+	background-image: url(../img/background/background_04.png);
+	background-repeat: no-repeat;
+	background-position: left -10px;
+	height: 40px;
+	width: 940px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#headerSub {
+	width: 240px;
+	position: absolute;
+	left: 630px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+}
+
+#headerSub ul li {
+	float: left;
+	background-image: url(../img/sabmenu_flag.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 30px;
+	width: 120px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#headerSub ul li a {
+	font-size: 0.8em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: block;
+	color: #FFF;
+	margin: 0px;
+	padding-right: 0px;
+	text-align: center;
+	height: 30px;
+	width: 120px;
+	line-height: 20px;
+}
+
+
+#siteTextNavi {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+	width: 800px;
+	padding: 0px;
+}
+#siteTextNavi h2 {
+	font-size: 0.8em;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+/*
+#siteTextNavi ul {
+	padding: 0px;
+	width: 700px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+	display: block;
+}
+
+
+
+
+#siteTextNavi ul li {
+	float: left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../img/circle_10x10_grean.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+
+#siteTextNavi ul li a {
+	font-size: 70%;
+	padding: 5px;
+	line-height: 30px;
+	display: block;
+	font-weight: bold;
+	color: #FFF;
+}
+
+*/
+#siteTextNavi dl {
+	height: 150px;
+	float: left;
+	border-left-width: 1px;
+	border-left-style: dashed;
+	border-left-color: #4F3724;
+	margin: 0px;
+	padding: 0px;
+	width: 131px;
+}
+#siteTextNavi .sitemapLasts {
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #4F3724;
+}
+#siteTextNavi dl dt {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	text-indent: 5px;
+	line-height: 20px;
+	height: 20px;
+}
+#siteTextNavi dl dt a {
+	color: #FFF;
+	background-color: #4F3724;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+}
+
+
+#siteTextNavi dl dd ul li {
+	font-size: 0.8em;
+	color: #FFF;
+	text-align: left;
+	text-indent: 10px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+#siteTextNavi dl dd ul li a {
+	color: #FFF;
+	height: 20px;
+	display: block;
+	line-height: 20px;
+}
+
+
+
+
+#footer {
+	clear: both;
+	font-size: 0.6em;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+/* --------- 各画面共通 ここまで------------------------------------------- */
+/* ----------- class個別設定　ここから --------------------------------------------- */
+
+/* 見出し文字装飾 */
+.effect_1{
+	color: #DD5045;
+	text-shadow: 0 1px 0 #FFF;
+	/*
+	text-shadow: 0 1px 0 #000,
+    0 2px 0 #000,
+    0 3px 1px #000;
+	*/
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	line-height: 25px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	background-image: url(../img/circle_15x15.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	height: 25px;
+	
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #DD5045;
+	border-right-color: #DD5045;
+	border-bottom-color: #DD5045;
+	border-left-color: #DD5045;
+	
+}
+.effect_2 {
+	height: 25px;
+	color: #DD5045;
+	
+text-shadow: 0 1px 0 #FFF,
+    0 -1px 0 #FFF,
+	0 2px 0 #FFF,
+	0 -2px 0 #FFF,
+	0 -3px 0 #FFF,
+	0 3px 1px #FFF,
+    0 4px 3px #AAA;
+
+
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	line-height: 25px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-left: 10px;
+	font-size: 150%;
+
+}
+
+.effect_3 {
+	color: #DD5045;
+	text-shadow: 0 1px 0 #FFF;
+	/*
+	text-shadow: 0 1px 0 #000,
+    0 2px 0 #000,
+    0 3px 1px #000;
+	*/
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	line-height: 25px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	background-image: url(../img/circle_15x15.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	height: 25px;
+	
+}
+
+/* stitchingBox --------------------------------------------------------------------*/
+.stitch {
+	/*stitching*/
+    outline: 1px dashed #86936A;
+	outline-offset: -5px;
+	background-color: #FFF;
+	margin: 10px;
+	/*shadow*//*
+    -webkit-box-shadow: 1px 1px 1px #000;
+	-moz-box-shadow: 1px 1px 1px #000;
+	box-shadow: 1px 1px 1px #000;	
+*/
+}
